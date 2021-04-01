@@ -11,6 +11,11 @@ Python 3
 
 This tutorial is designed to continue our deep dive into the practice of web scraping. In the exercise below we'll be scraping elements from multiple web pages.
 
+# Goal of this assignment
+
+The tutorial leads students to write a scraping code that collects 5-starred rating book names from a book rating website across 50 web pages. The assignment's goal is slightly different from the tutorial: the script in the project should search and list out 1-starred rating book names instead of 5-starred rating. Thus, students should twist the original code by a bit and note with comments. 
+
+
 ## Working with Multiple Pages
 So far, we've been grabbing elements from a single page in Wikipedia; text from the table of contents, an image, etc. But in general, we'll be wanting to grab multiple elements across multiple pages.
 
@@ -223,6 +228,4 @@ five_star_titles
 ```
 Congrats: you've looped through a whole web site to scrape all the five-star titles!
 
-# Goal of this assignment
 
-The tutorial leads students to write a scraping code that collects 5-starred rating book names from a book rating website across 50 web pages. The assignment's goal is slightly different from the tutorial: the script in the project should search and list out 1-starred rating book names instead of 5-starred rating. Thus, students should twist the original code by a bit and note with comments. 
