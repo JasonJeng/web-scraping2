@@ -1,5 +1,14 @@
 # Web-scraping in Depth Part 2
 
+Zexing Zheng
+
+IDCE302 Web Scraping 2
+
+Python 3
+
+04/01/2021
+
+
 This tutorial is designed to continue our deep dive into the practice of web scraping. In the exercise below we'll be scraping elements from multiple web pages.
 
 ## Working with Multiple Pages
@@ -214,8 +223,6 @@ five_star_titles
 ```
 Congrats: you've looped through a whole web site to scrape all the five-star titles!
 
-# What to Submit
+# Goal of this assignment
 
-In this tutorial we've written - step by step - instructions to create a script that will scrape the text we want across multiple pages of a website. Now I want you to alter the code a bit. We know what all the highest rated books are on this website, but what about the lowest rated ones? Let's say that most users don't scroll through all 50 pages of a site but, generally, only see the first few. We want a list of all of the books that only have one star rating, in the first 5 pages of the website. Adjust the script to give you this output.
-
-When you are done, submit your notebook - the code should be in a single block or code cell so it can be run all at once - in a Github repository from your _personal account_. The`README` file in your repository should briefly explain what your code does and specify any inputs and outputs required. Feel free to add other explanation as necessary, such as any problems you encountered and how you debugged them, any interesting insights you gained from the tutorial, etc.
+The tutorial leads students to write a scraping code that collects 5-starred rating book names from a book rating website across 50 web pages. The assignment's goal is slightly different from the tutorial: the script in the project should search and list out 1-starred rating book names instead of 5-starred rating. Thus, students should twist the original code by a bit and note with comments. 
